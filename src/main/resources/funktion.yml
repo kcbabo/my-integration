@@ -1,0 +1,7 @@
+---
+flows:
+- steps:
+  - kind: endpoint
+    uri: trade-insight-buy:?host=hostname
+  - kind: endpoint
+    uri: day-trade-place:?host=hostname
